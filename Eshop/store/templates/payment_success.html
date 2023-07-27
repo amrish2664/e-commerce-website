@@ -1,0 +1,17 @@
+{% load static%}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Payment Success</title>
+    <link href="{% static 'css/payment_success.css' %}" rel="stylesheet">
+</head>
+<body>
+    
+    <h1 class='success'>Payment successful!</h1>
+    <div>thank you for yourpurchase</div>
+    <form action="{% url "home"%}">
+        <button type="submit" class="button">Return to home</button>
+     </form>
+    
+</body>
+</html>

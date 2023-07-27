@@ -1,0 +1,22 @@
+{%load static%}
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+    <h1>your cart</h1>
+    <form action="" method="POST">
+        {%csrf_token%}
+        <ul>
+            {% for cart_item in user.cartitem_set.all%}
+            <li>
+                {{cart_item.item.name}}-quantity:{{cart_item.quantity}}
+                <button type="submit" name="plus" value="{{cart_item.id}}">+</button>  
+                <button type="submit" name="minus" value="{{cart_item.id}}">-</button>       
+            </li>
+            {%endfor%}
+        </ul>
+    </form>
+    
+</body>
+</html>        

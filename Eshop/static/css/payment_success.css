@@ -1,0 +1,19 @@
+.success{
+    background-color: green;
+    text-align: center;
+}
+div{
+    text-align: center;
+    font-size: 24px;
+}
+.button{
+    background-color:green;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    place-items: center;
+    display: flex;
+    padding: 12px 24px;
+}

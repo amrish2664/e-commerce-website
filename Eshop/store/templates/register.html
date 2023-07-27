@@ -1,0 +1,27 @@
+{%load static %}
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Registration</title>
+  <link href="{% static 'css/register.css' %}" rel="stylesheet">
+</head>
+<body>
+  <div class="registration-container">
+    <h2>Registration</h2>
+    {% if error_message %}
+        <p>{{ error_message }}</p>
+    {% endif %}
+    <form id="registration-form" method="POST" >
+      {% csrf_token %}
+      <input type="text" id="username" placeholder="name" name="uname">
+      <input type="email" id="email" placeholder="Email" name="email">
+      <input type="password" id="password" placeholder="Password" name="password">
+      <input type="password" id="confirm-password" placeholder="Confirm Password" name="conpass">
+      <button type="submit">Register</button>
+      <h4>Already Have account?<a href="{% url 'login'%}">Login</a></h4>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

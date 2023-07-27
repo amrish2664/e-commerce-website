@@ -1,0 +1,101 @@
+/* Reset default styles
+ {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Basic styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #159fb1;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 20px;
+
+  }
+  
+  header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #159fb1;
+  }
+  
+  nav {
+    margin-top: 10px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+  }
+  
+  .categories {
+    padding: 20px;
+    overflow-y: auto;
+    background-color: #159fb1;
+    
+  }
+  
+  .categories h2 {
+    margin-bottom: 10px;
+  }
+  
+  .categories ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .categories li {
+    margin-bottom: 5px;
+  }
+  
+  .categories a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .items {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    overflow-y: auto;
+    
+  }
+  
+  .item {
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 20px;
+  }
+  
+  .item img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+  }
+  
+  .item h3 {
+    margin-bottom: 10px;
+  }
+  
+  .item p {
+    margin-bottom: 10px;
+  }
+  
+  .item .price {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .item button {
+    padding: 10px 20px;
+  }
+   
