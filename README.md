@@ -20,7 +20,7 @@ This is Ecommerce site for an small shopkeepers .Here an individual running an s
 * Payment methods(SandBox)
 ## Contact
 
-Puranjay Mohan - amrish2664@gmail.com
+Amrish - amrish2664@gmail.com
 
 Project Link: [https://github.com/amrish2664/e-commerce-website](https://github.com/amrish2664/e-commerce-website)
 
